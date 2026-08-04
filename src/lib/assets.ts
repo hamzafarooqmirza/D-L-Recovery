@@ -1,0 +1,28 @@
+export const IMG = {
+  logo: "/images/logo.webp",
+  hero: "/images/hero.webp",
+  emergencyCarRecovery: "/images/emergency-car-recovery.webp",
+  vehicleTowingService: "/images/vehicle-towing-service.webp",
+  breakdownRecovery: "/images/breakdown-recovery.webp",
+  breakdownRecoveryAlt: "/images/breakdown-recovery-alt.webp",
+  accidentRecovery: "/images/accident-recovery.webp",
+  flatbedTowing: "/images/flatbed-towing.webp",
+  luxurySportsCarTransport: "/images/luxury-sports-car-transport.webp",
+  suv4x4Recovery: "/images/suv-4x4-recovery.webp",
+  recoveryToGarage: "/images/recovery-to-garage.webp",
+  recoveryToMechanic: "/images/recovery-to-mechanic.webp",
+  recoveryToDealership: "/images/recovery-to-dealership.webp",
+  luxuryExoticCarTowing: "/images/luxury-exotic-car-towing.webp",
+  heavyDutyTruckTowing: "/images/heavy-duty-truck-towing.webp",
+  commercialVehicleTowing: "/images/commercial-vehicle-towing.webp",
+  roadsideAssistance: "/images/roadside-assistance.webp",
+  carTowing: "/images/car-towing.webp",
+  carAndTowingVan: "/images/car-and-towing-van.webp",
+};
+
+export const PHONE = "+447511659806";
+export const PHONE_DISPLAY = "07511 659806";
+export const WHATSAPP = "https://wa.me/447511659806";
+export const EMAIL = "info@dlrecovery.co.uk";
+export const ADDRESS = "Bristol and surrounding areas";
+export const BRAND = "D & L Recovery";
