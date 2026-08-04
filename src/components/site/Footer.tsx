@@ -43,7 +43,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60 px-4 py-6 flex flex-col items-center gap-1.5 text-xs text-muted-foreground text-center">
         <span>&copy; {new Date().getFullYear()} D &amp; L Recovery. All rights reserved.</span>
-        <span>24/7 vehicle recovery and towing service in Bristol and surrounding areas.</span>
+        <span>Design with ❤️ By Linkedo</span>
       </div>
     </footer>
   );
