@@ -87,16 +87,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "D & L Recovery — 24/7 Roadside Assistance Bristol" },
       { property: "og:description", content: "24/7 emergency roadside assistance, vehicle recovery, towing, accident recovery and specialist vehicle transport across Bristol and surrounding areas." },
       { name: "twitter:description", content: "24/7 emergency roadside assistance, vehicle recovery, towing, accident recovery and specialist vehicle transport across Bristol and surrounding areas." },
-      { property: "og:image", content: "/og-image.webp" },
-      { name: "twitter:image", content: "/og-image.webp" },
+      { property: "og:image", content: "/D-L-recovery-open-graph.webp" },
+      { name: "twitter:image", content: "/D-L-recovery-open-graph.webp" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", type: "image/webp", href: "/favicon.webp" },
-      { rel: "apple-touch-icon", href: "/favicon.webp" },
+      { rel: "icon", type: "image/webp", href: "/D-L-recovery-site-icon.webp" },
+      { rel: "apple-touch-icon", href: "/D-L-recovery-site-icon.webp" },
     ],
     scripts: [
       {
