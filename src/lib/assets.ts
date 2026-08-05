@@ -26,3 +26,5 @@ export const WHATSAPP = "https://wa.me/447511659806";
 export const EMAIL = "info@dlrecovery.co.uk";
 export const ADDRESS = "Bristol and surrounding areas";
 export const BRAND = "D & L Recovery";
+export const INSTAGRAM = "https://www.instagram.com/dlrecovery?igsh=ZzBlem00bGdkdWI0";
+export const FACEBOOK = "https://www.facebook.com/share/1AfyAD8CBJ/?mibextid=wwXIfr";
