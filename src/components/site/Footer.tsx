@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS, BRAND } from "@/lib/assets";
+import { IMG, PHONE, PHONE_DISPLAY, WHATSAPP, EMAIL, ADDRESS, BRAND, INSTAGRAM, FACEBOOK } from "@/lib/assets";
 import { SERVICES } from "@/lib/services";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, Instagram, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -10,6 +10,14 @@ export function Footer() {
         <div className="space-y-4">
           <img src={IMG.logo} alt={`${BRAND} logo`} className="h-14 w-auto" />
           <p className="text-sm text-muted-foreground">Bristol's trusted 24/7 roadside assistance, vehicle recovery and transport specialists serving Bristol and surrounding areas.</p>
+          <div className="flex gap-3 pt-1">
+            <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="grid h-9 w-9 place-items-center rounded-full border border-border bg-card/60 text-muted-foreground hover:text-primary hover:border-primary transition">
+              <Instagram className="h-4 w-4" />
+            </a>
+            <a href={FACEBOOK} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="grid h-9 w-9 place-items-center rounded-full border border-border bg-card/60 text-muted-foreground hover:text-primary hover:border-primary transition">
+              <Facebook className="h-4 w-4" />
+            </a>
+          </div>
         </div>
         <div>
           <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">Services</h3>
