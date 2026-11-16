@@ -14,4 +14,7 @@ export const SERVICES = [
   { slug: "/luxury-exotic-car-towing", title: "Luxury & Exotic Car Towing", image: IMG.luxuryExoticCarTowing, desc: "Specialist towing for rare and exotic vehicles that demand extra precision." },
   { slug: "/heavy-duty-truck-towing", title: "Heavy-Duty & Truck Towing", image: IMG.heavyDutyTruckTowing, desc: "Rated equipment and experienced crews for trucks, lorries and heavy vehicles." },
   { slug: "/commercial-vehicle-towing", title: "Commercial Vehicle Towing", image: IMG.commercialVehicleTowing, desc: "Reliable towing for vans, fleet vehicles and business-critical transport." },
+  { slug: "/contact", title: "Jump Start", image: IMG.breakdownRecovery, desc: "Roadside jump-start assistance for vehicles with a flat battery, where it is safe and suitable to do so." },
+  { slug: "/contact", title: "Battery Testing", image: IMG.roadsideAssistance, desc: "Battery condition checks to help identify starting and charging problems with your vehicle." },
+  { slug: "/contact", title: "Battery Replacement", image: IMG.breakdownRecoveryAlt, desc: "Assistance with replacing a faulty car battery with a suitable replacement for your vehicle." },
 ] as const;
